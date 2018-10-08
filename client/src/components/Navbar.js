@@ -5,8 +5,7 @@ import React from 'react';
 
 const Navbar = () => (
   <nav className="pa3 pa4-ns">
-    <img src="\client\public\images\logo.png" alt="logo" height="42" width="42">
-    
+    <img src="\images\logo.png" alt="logo" height="42" width="42"></img>
         <SearchBar/>
         <Link to="/signup" className="link dim gray f6 f5-ns dib mr3" title="signup">
           Sign Up
@@ -20,7 +19,7 @@ const Navbar = () => (
         <Link to="/User" className="link dim gray f6 f5-ns dib mr3" title="User Page">
           User Page
     </Link>
-      </nav>
-    )
-  
+  </nav>
+)
+
 export default Navbar;
